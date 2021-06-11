@@ -1,0 +1,43 @@
+.mainContainer{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6.25rem 10%;
+
+    .mainContainerLeft{
+        h1{
+            font-size: 3.5rem;
+            font-weight: 600;
+            color: var(--blue);
+        }
+
+        p{
+            font-size: 1.25rem;
+            font-weight: 400;
+            color: var(--blue);
+            margin-top: 3.5rem;
+        }
+
+        button{
+            padding: 0.938rem 2.5rem;
+            background-color: var(--yellow);
+            color: var(--blue);
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-top: 2.625rem;
+            border: none;
+            border-radius: 0.313rem;
+        }
+    }
+
+
+    .mainContainerRigth{
+        .imagem{
+            width: 670px;
+            height: 480px;
+            background-color: var(--blue);
+        }
+    }
+}

@@ -1,0 +1,45 @@
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1.25rem 3%;
+
+    h1 {
+        font-weight: 700;
+        margin-right: auto;
+        color: #FBC443;
+
+        cursor: pointer;
+    }
+
+    .nav_bar{
+        padding-right: 2.5rem;
+
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        li {
+            padding: 0 1.25rem;
+        }
+
+        a {
+            font-size: 1.2rem;
+            font-weight: 400;
+            color: #2C3344;
+        }
+    }
+
+    button{
+        cursor: pointer;
+        color: #2C3344;
+        font-size: 1.25rem;
+        font-weight: 700;
+        padding: 0.62rem 2.5rem;
+        border: 1px solid #2C3344;
+        border-radius: 0.3rem;
+        background-color: transparent;
+    }
+}
